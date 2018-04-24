@@ -1,20 +1,26 @@
 # Infinite loop
+autoloop.py
 
-An infinite loop that runs multiple functions of a wireless security program. 
+An infinite loop that runs multiple programs of a wireless security suite. 
 
-# Password validation
+# Key checker
+keyc.py
+
+Automates possible passkeys and reads output to determine correct key to encrypted message.
+
+# Password validation 
+password-script.py
 
 A password validation script that requires the user's password to be at least 8 characters long and contain:
 
 - An uppercase letter
-
 - A lowercase letter
-
 - A number and
-
 - A symbol. 
 
+
 # Automated War card game
+warcardgame.py
 
 - Creates the deck
 - Shuffles the cards 
