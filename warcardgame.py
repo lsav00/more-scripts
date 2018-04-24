@@ -52,7 +52,7 @@ print("User's hand is: ", user)
 
 game_over = False   #initializes game_over variable to false
 drawpile = []       #creates an empty drawpile list
-
+bigcounter=0
 while game_over == False:       #while loops until game_over is true
     draw = 0                #draw allows iteration thru hand indices during draws
     compdraw = computer[draw]   #this is computer's revealed card
@@ -78,6 +78,7 @@ while game_over == False:       #while loops until game_over is true
         print("User's new hand is: " , user)
         print("The drawpile has: ", drawpile)
         draw +=1
+        bigcounter +=1
     #tests and responds to draws & displays updated cards
     elif compdraw == userdraw:      #if there's a draw...
         print("Draw")               #displays message of draw
@@ -89,6 +90,7 @@ while game_over == False:       #while loops until game_over is true
         print("User's new hand is: " , user)
         print("The drawpile has: ", drawpile)
         draw += 1
+        bigcounter +=1
     #tests and responds to user wins & displays updated cards
     else:                           #if user wins the draw...
         print("You win")            #displays message that user wins
@@ -102,6 +104,7 @@ while game_over == False:       #while loops until game_over is true
         print("User's new hand is: " , user)
         print("The drawpile has: ", drawpile)
         draw +=1
+        bigcounter +=1
     #determines if game is over
     if len(computer) == 0:          #if computer's hand length is 0...
         print ("You won the game!") #displays message that user wins
