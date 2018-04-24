@@ -14,6 +14,7 @@ for i in plist:  #this loops through each item in the wordlist
 	pz=plist[c]	#this assigns each wordlist item to variable "pz" 
 	print("Testing",pz)  #prints pz to verify what's being tested
 	print("Number of attempts: ", c)  #prints c to verify num of attempts
+	#file22 below is the name of the encrypted file
 	proc = subprocess.Popen(('openssl', 'aes-256-cbc', '-d', '-in', 'file22','-a','-k', '{}'.format(pz)), stderr=subprocess.PIPE, stdout=subprocess.PIPE)	
 #above code runs openssl with decrypt cmd & injects wordlist items ("pz")
 #also assigns subprocess output to variables "stderr" and "stdout"
