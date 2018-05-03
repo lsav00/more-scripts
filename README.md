@@ -1,3 +1,8 @@
+# Spider a website
+spiderweb1.py
+
+This is a program that spiders a website.  
+
 # Infinite loop
 autoloop.py
 
