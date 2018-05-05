@@ -1,3 +1,8 @@
+# Blacklist Checker
+blacklist_check.py
+
+This script downloads IP blacklist database and checks if any IPs in the Apache access log matches any blacklisted IPs.   
+
 # Spider a website
 spiderweb1.py
 
