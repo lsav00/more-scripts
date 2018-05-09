@@ -1,3 +1,8 @@
+# 404 Bomber
+404_bomber.py
+
+I use this to test my Splunk alert regarding 404 errors. 
+
 # Blacklist Checker
 blacklist_check.py
 
