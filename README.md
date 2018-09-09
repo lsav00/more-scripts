@@ -1,4 +1,4 @@
-# Scanner for valid IPs & open ports 
+# Network & ports scanner 
 scanner.py
 
 For scanning network & ports in CTFs.
