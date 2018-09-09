@@ -1,3 +1,8 @@
+# Scanner for valid IPs & open ports 
+scanner.py
+
+For scanning network & ports in CTFs.
+
 # 404 Bomber
 404_bomber.py
 
