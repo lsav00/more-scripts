@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+#this script: 1) asks user for an IP, 2) asks user what octet of that IP the scanner will cycle through from 1 to 254 (ex., if IP=192.168.1.1, and user chooses octet 4, the scanner will scan IPs 192.168.1.0/32).  3) script uses subprocess to run ping & redirect output to text file, 4) and uses regex to match successful IPs (from lines with '64 bytes'), 5)and prints those IPs, 6)and asks user what IP to scan ports on, 7) and first and last port number to scan. 8) The script runs socket to find open ports and prints them.
+#will add infinite loop in port selection area to allow user to scan ports of another IP without having to run pings again.
+
 import subprocess  	#to run ping
 import time		#to wait for pings to process
 import os		#to write ping results to txt file
@@ -12,15 +16,15 @@ l=[]	#l = empty list to append successful port results
 def scan(a,b):	#"scan" function passes IP & port to socket method
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     result = sock.connect_ex((a,b))
-    if result == 0:	#if socket return 0, port is open
+    if result == 0:	#if socket returns 0, port is open
         l.append(b)	#append open port to l (el) list
 
 
 net=input("Enter an IP: ") #net=input, ex. 192.168.1.1
 r=input("Octet 1 2 3 4: ") #r= octet number to cycle thru 1-254
 input("You chose {}. Are you sure?".format(r)) #to help against scanning public IPs
-jes=[substring.strip() for substring in net.split('.')] #jes splits IP by with "." delimiters into a list
-host=1	#host=number b/w 1-254 we're gonna cycling thru
+jes=[substring.strip() for substring in net.split('.')] #jes splits net (IP typed in) by "." delimiters into a list
+host=1	#host=number b/w 1-254 to cycle thru
 
 if r=="1":  #if user cycles thru 1st octet...
     for i in range(255):   #for every num(i) in range from 1-254... create an IP with... 
