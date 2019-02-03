@@ -1,3 +1,6 @@
+# Snippets collection
+https://docs.google.com/document/d/1slYGJXWQHoxhMQlgtddyOonl_JiwZfJfsPSTzCAAuEo/edit?usp=sharing
+
 # Network & ports scanner 
 scanner.py
 
