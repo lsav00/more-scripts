@@ -6,10 +6,10 @@ scanner.py
 
 For scanning network & ports in CTFs.
 
-# 404 Bomber
+# Random webpage requests
 404_bomber.py
 
-I use this to test my Splunk alert regarding 404 errors. 
+Python script that requests random URLs on an inputted IP, which can be useful for testing alerts for web-crawling activity.
 
 # Blacklist Checker
 blacklist_check.py
