@@ -1,5 +1,5 @@
 # Snippets collection
-https://docs.google.com/document/d/1slYGJXWQHoxhMQlgtddyOonl_JiwZfJfsPSTzCAAuEo/edit?usp=sharing
+https://docs.google.com/document/d/1oYSfVrxDr1WdF8KF776WylmFM35vbcRHI6qhVASF8X8/edit?usp=sharing
 
 # Network & ports scanner 
 scanner.py
