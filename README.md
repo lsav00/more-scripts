@@ -1,54 +1,29 @@
-# Snippets collection
-https://docs.google.com/document/d/1oYSfVrxDr1WdF8KF776WylmFM35vbcRHI6qhVASF8X8/edit?usp=sharing
+# Find and copy files (Bash)
+Finds and makes a copy of user-specified files. It appends "bak- 'date & time'" to the name of the new file and saves it to a folder in Desktop: backerupper.sh
 
-# Network & ports scanner 
-scanner.py
-
-For scanning network & ports in CTFs.
+# Network & ports scanner (python)
+Scans for network devices and open ports: scanner.py 
 
 # Random webpage requests
-404_bomber.py
-
-Python script that requests random URLs on an inputted IP, which can be useful for testing alerts for web-crawling activity.
-
-# Blacklist Checker
-blacklist_check.py
-
-This script downloads IP blacklist database and checks if any IPs in the Apache access log matches any blacklisted IPs.   
+Requests random URLs to trigger 404 errors on user-specified IP: 404_bomber.py
 
 # Spider a website
-spiderweb1.py
+Creates master list of URLs in a user-specified domain: spiderweb1.py
 
-This is a program that spiders a website.  
+# Infinite loop for aircrack-ng
+Infinite loop that listens for and de-authorizes WiFi connections of user-specified MAC addresses: autoloop.py
 
-# Infinite loop
-autoloop.py
+# Brute-Force OpenSSL
+Brute-force for OpenSSL AES 256 CBC encryption (tested on Kali 2017): keyc.py
 
-An infinite loop that runs multiple programs of a wireless security suite. 
-
-# Key checker
-keyc.py
-
-Automates possible passkeys and reads output to determine correct key to encrypted message.
+# Blacklist Checker
+Downloads blacklist and checks against Apache access log: blacklist_check.py  
 
 # Password validation 
-password-script.py
+Validates a new password meets requirements: password-script.py
 
-A password validation script that requires the user's password to be at least 8 characters long and contain:
+# War card game
+Create deck, shuffle, divide into two piles, each player reveals top card, player with the highest card takes all cards, for ties each player keeps revealing top card until there's a high card, draw with highest card, game ends when one player has all the cards: warcardgame.py
 
-- An uppercase letter
-- A lowercase letter
-- A number and
-- A symbol. 
-
-
-# Automated War card game
-warcardgame.py
-
-- Creates the deck
-- Shuffles the cards 
-- Divides the cards into two equal piles
-- Each player reveals top card
-- Player with the highest card takes all cards
-- For ties, each player keeps revealing top card until there's a high card
-- Game ends when one player has all the cards.
+# Python snippets
+https://docs.google.com/document/d/1oYSfVrxDr1WdF8KF776WylmFM35vbcRHI6qhVASF8X8/edit?usp=sharing
