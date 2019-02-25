@@ -1,29 +1,29 @@
-# Find and copy files (Bash)
+### Find and copy files (Bash)
 Finds and makes a copy of user-specified files. It appends "bak- 'date & time'" to the name of the new file and saves it to a folder in Desktop: backerupper.sh
 
-# Network & ports scanner (python)
+### Network & ports scanner (python)
 Scans for network devices and open ports: scanner.py 
 
-# Random webpage requests
+### Random webpage requests
 Requests random URLs to trigger 404 errors on user-specified IP: 404_bomber.py
 
-# Spider a website
+### Spider a website
 Creates master list of URLs in a user-specified domain: spiderweb1.py
 
-# Infinite loop for aircrack-ng
+### Infinite loop for aircrack-ng
 Infinite loop that listens for and de-authorizes WiFi connections of user-specified MAC addresses: autoloop.py
 
-# Brute-Force OpenSSL
+## Brute-Force OpenSSL
 Brute-force for OpenSSL AES 256 CBC encryption (tested on Kali 2017): keyc.py
 
-# Blacklist Checker
+### Blacklist Checker
 Downloads blacklist and checks against Apache access log: blacklist_check.py  
 
-# Password validation 
+### Password validation 
 Validates a new password meets requirements: password-script.py
 
-# War card game
+### War card game
 Create deck, shuffle, divide into two piles, each player reveals top card, player with the highest card takes all cards, for ties each player keeps revealing top card until there's a high card, draw with highest card, game ends when one player has all the cards: warcardgame.py
 
-# Python snippets
+### Python snippets
 https://docs.google.com/document/d/1oYSfVrxDr1WdF8KF776WylmFM35vbcRHI6qhVASF8X8/edit?usp=sharing
