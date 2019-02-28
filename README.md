@@ -1,5 +1,5 @@
 ### Find and copy files (Bash)
-Finds and makes a copy of user-specified files. It appends "bak- 'date & time'" to the name of the new file and saves it to a folder in Desktop: backerupper.sh
+Finds and makes a copy of user-specified files. It appends "bak- 'date & time'" to the name of the new file and saves it to a folder in Desktop: backupper.sh
 
 ### Network & ports scanner (python)
 Scans for network devices and open ports: scanner.py 
