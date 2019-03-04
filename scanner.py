@@ -98,4 +98,4 @@ for n in range(port1n,port2n):
 
 #the scan function creates a list(l) of open ports
 for o in l:  #for every open port(o) in l...
-    print(o)	#print the open port
+    print(o)	 #print the open port
