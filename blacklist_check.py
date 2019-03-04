@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+
+"""
+Automates blacklist web request and checking Apache access log against blacklist. 
+"""
+
 import requests
 import re
 import os
