@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import requests
 import re
 import csv
@@ -124,4 +122,4 @@ with open("masterfile.csv", "w") as myfile:
 
 
 input("The masterlist now contains {} URLs. Do you want to spider all those entries?".format(list_length))
-print("You're crazy... No way!")
+print("No!")
