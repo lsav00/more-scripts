@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#This script makes a copy of user-specified files and appends "bak- 'date & time'" to file name of file copy.
+#This script makes a copy of user-specified files and appends "bak- 'date & time'" to filenames. Can be a data exfiltration tool. 
 
 
 x=$(date)					#assign date & time to x
