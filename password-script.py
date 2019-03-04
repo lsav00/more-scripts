@@ -1,4 +1,4 @@
-#A password creation script that requires password meet specified requirements.
+#A password creation script that requires password meet specified requirements 
 
 print("Passwords must be at least 8 characters long and have the following:")
 print("-An uppercase letter,\n-A lowercase letter,\n-A number, and\n-A symbol.") 
