@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import subprocess
-
+"""
+Stops script after 50,000th attempt (line 32)
+"""
 
 #this reads from the wordlist and assigns to variable "plist"
 with open("wordlist") as f:
