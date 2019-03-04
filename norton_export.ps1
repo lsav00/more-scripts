@@ -1,3 +1,14 @@
+<#
+PowerShell script that exports Norton Security logs and converts the logs to separate csv files for Splunk. Here's a quick description:
+
+First, it runs a commmand that exports the logs from Norton.
+Next, it regex matches relevant sections from the logs and redirects the matches to separate text files. The relevant sections I chose to keep from the Logs are:
+To start the csv conversion process, it removes the title and headers and then exports as a new text file.
+Finally, it adds new headers with import-csv and uses export-csv to convert the file to a csv with separated columns.
+The end result is titled csv security logs that can be loaded to Splunk with a universal forwarder. The csv files are nice because Splunk reads the headers and makes them into fields for efficient analyzing.
+#>
+
+
 #EXPORT LOGS FROM NORTON SECURITY APPLICATION
 C:\"Program Files"\"Norton Security"\Engine\22.14.0.54\mcui32.exe /export c:\Users\*****\Desktop\NortonLogs\logs.txt
 
