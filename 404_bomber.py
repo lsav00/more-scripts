@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+"""
+Makes 150 random URL requests to trigger HTTP 404 errors. 
+"""
+
 import requests
 import random
 
