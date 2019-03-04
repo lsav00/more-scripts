@@ -6,7 +6,7 @@ import os.path
 
 
 def killairodump():	
-	print("Kill running process")
+	print("Kill running airodump process")
 	os.system("ps aux | pgrep airodump > /root/Desktop/lspy/kilproc.csv")	#REDIRECT AIRODUMP PROCESS ID TO KILPROC.CSV
 	time.sleep(.5)								#SLEEP FOR .5 SECONDS TO ALLOW KILPROC.CSV TO POPULATE
 	with open("/root/Desktop/lspy/kilproc.csv", "r") as kill_pid:		#OPEN KILPROC.CSV FOR READING
