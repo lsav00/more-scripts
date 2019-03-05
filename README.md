@@ -27,3 +27,6 @@ Create deck, shuffle, divide into two piles, each player reveals top card, playe
 
 ### Python snippets
 https://docs.google.com/document/d/1oYSfVrxDr1WdF8KF776WylmFM35vbcRHI6qhVASF8X8/edit?usp=sharing
+
+### More snippets
+https://docs.google.com/document/d/1_-BAfdFqBoEn45EQn0mdwS3qX59CUZlIrMqp_Wb40Bo/edit?usp=sharing
