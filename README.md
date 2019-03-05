@@ -1,3 +1,6 @@
+### pcapper.py
+POC to parse a tshark output: runs a tshark command for source IPs from a pcap file and then deduplicates the IPs  
+
 ### Find and copy files (Bash)
 Finds and makes a copy of user-specified files. It appends "bak- 'date & time'" to the name of the new file and saves it to a folder in Desktop: backupper.sh
 
