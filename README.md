@@ -29,7 +29,7 @@ Validates a new password meets requirements: password-script.py
 Create deck, shuffle, divide into two piles, each player reveals top card, player with the highest card takes all cards, for ties each player keeps revealing top card until there's a high card, draw with highest card, game ends when one player has all the cards: warcardgame.py
 
 ### Python snippets
-https://docs.google.com/document/d/1oYSfVrxDr1WdF8KF776WylmFM35vbcRHI6qhVASF8X8/edit?usp=sharing
+https://docs.google.com/document/d/1OMkRJQQ_hvSxNMIVh8tRCyv63h2FoHcGkxNpB-ksy10/edit?usp=sharing
 
 ### More snippets
 https://docs.google.com/document/d/1_-BAfdFqBoEn45EQn0mdwS3qX59CUZlIrMqp_Wb40Bo/edit?usp=sharing
